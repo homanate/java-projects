@@ -29,11 +29,11 @@ public class graph{ // A utility function to find the vertex with minimum distan
 
 	// Function that implements Dijkstra's algorithm for a graph represented using adjacency matrix representation
 	void dijkstra(int graph[][], int src) {
-		int dist[] = new int[maxPath]; // The output array. dist[i] will hold
-									// the shortest distance from src to i
+		int dist[] = new int[maxPath]; // The output array. dist[i] will hold the shortest distance from src to i
 
 		// set[i] will true if vertex i is included in shortest
 		// path tree or shortest distance from src to i is finalized
+		
 		Boolean set[] = new Boolean[maxPath];
 
 		// Initialize all distances as INFINITE and set[] as false
